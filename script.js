@@ -1,16 +1,36 @@
 var name = prompt("Ismingizni kiriting")
-console.log(" Mening ismim " + name);
+console.log(" SIzning ismingiz " + name);
 var age = +prompt(" Yoshingiz nechida? ")
-console.log(' Men ' + age + " yoshdaman ");
-var misoll = +prompt('Misol 1: 17 + 13=? ')
-console.log(' Misol 1: 17 + 13 = ' + (17 + 13) + " Sizning javob: " + misoll);
-var misoll = +prompt('Misol 2: 14 - 7 =? ')
-console.log(' Misol 2: 14 - 7 = ' + (14 - 7) + " Sizning javob: " + misoll);
-var misoll = +prompt('Misol 3: 25 * 4 =? ')
-console.log(' Misol 3: 25 * 4 = ' + 25 * 4 + " Sizning javob: " + misoll);
-var misoll = +prompt('Misol 4: 81 / 3 =? ')
-console.log(' Misol 4: 81 / 3 = ' + 81 / 3 + " Sizning javob: " + misoll);
-var misoll = +prompt('Misol 5: 19 % 4 =? ')
-console.log(' Misol 5: 19 % 4 = ' + 19 % 4 + " Sizning javob: " + misoll);
-var end = prompt('Consolga kirib javoblarni taqqoslang')
-console.log(end);
+console.log(' Siz ' + age + " yoshdasiz ");
+var misol = +prompt(' Misol 1: 6 + 3=? ')
+if (misol == 9) {
+    alert(" Misol 1: sizning javobingiz to'g'ri " + misol)
+} else {
+    alert(" Misol 1: sizning javobingiz noto'g'ri " + misol + " To'g'ri javob:" + (6 + 3))
+}
+var misol = +prompt('Misol 2: 20 - 5 =? ')
+if (misol == 15) {
+    alert(" Misol 2: sizning javobingiz to'g'ri " + misol);
+} else {
+    alert(" Misol 2: sizning javobingiz noto'g'ri " + misol + " To'g'ri javob " + (20 - 5));
+}
+var misol = +prompt('Misol 3: 15 * 2 =? ')
+if (misol == 30) {
+   alert("Misol 3: sizning javobingiz to'g'ri " + misol);
+} else {
+    alert(" Misol 3: sizning javobingiz noto'g'ri " + misol + " To'g'ri javob " + (15 * 2));
+}
+var misol = +prompt('Misol 1: 8 / 4 =? ')
+if (misol == 2) {
+    alert(" Misol 4: sizning javobingiz to'g'ri " + misol);
+} else {
+    alert(" Misol 4: sizning javobingiz noto'g'ri " + misol + " To'g'ri javob " + (8 / 4));
+}
+var misol = +prompt('Misol 5: 10 % 3 =? ')
+if (misol == 1) {
+    alert(" Misol 5: sizning javobingiz to'g'ri " + misol);
+}else{
+    alert(" Misol 5: sizning javobingiz noto'g'ri " + misol + " To'g'ri javob " + (10%3));
+}
+var end = alert('Kodlarga kirib javoblarni taqqoslang')
+// console.log('end');
