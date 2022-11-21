@@ -41,18 +41,18 @@
 // }
 // console.log(box);
 
-// var age = +prompt("Yoshingiz nechida")
-// if(age >=59 && age < 150){
-//    alert("Pensiyaga chiqqansiz, agar tirik bo`lsangiz")
-// }else if(age >= 50 && age < 58){
-//     alert("Pensiya yoshiga oz qolibdi")
-// }else if (age >= 18 && age < 49){
-//     alert("Hali yoshsiz , ishlashiz kerak")
-// }else if (age >= 0 && age <17 ){
-//     alert("Yoshingiz yetmaydi")
-// }else{
-//     alert("Nimadir xato")
-// }
+var age = +prompt("Yoshingiz nechida")
+if(age >=59 && age < 150){
+   alert("Pensiyaga chiqqansiz, agar tirik bo`lsangiz")
+}else if(age >= 50 && age < 58){
+    alert("Pensiya yoshiga oz qolibdi")
+}else if (age >= 18 && age < 49){
+    alert("Hali yoshsiz , ishlashiz kerak")
+}else if (age >= 0 && age <17 ){
+    alert("Yoshingiz yetmaydi")
+}else{
+    alert("Nimadir xato")
+}
 
 // var son = +prompt("Son kiriting Biz uni toq yoki juftligini aniqlaymiz")
 // if (son%2==0){
@@ -63,14 +63,14 @@
 //     alert("son kiriting harf emas")
 // }
 
-var son = +prompt("Son kiriting Biz uni toq yoki juftligini aniqlaymiz")
-while(isNaN(son)){
-    alert("Son kiriting harf emas " )
-}
- if (son%2==0){
-     alert("siz juft son kiritdingiz " + son)
- }else if (son%2==1){
-    alert("siz toq son kiritdingiz " +son)
- }while(isNaN(son)){
-    alert("Son kiriting harf emas " )
-}
+// var son = +prompt("Son kiriting Biz uni toq yoki juftligini aniqlaymiz")
+// while(isNaN(son)){
+//     alert("Son kiriting harf emas " )
+// }
+//  if (son%2==0){
+//      alert("siz juft son kiritdingiz " + son)
+//  }else if (son%2==1){
+//     alert("siz toq son kiritdingiz " +son)
+//  }while(isNaN(son)){
+//     alert("Son kiriting harf emas " )
+// }
