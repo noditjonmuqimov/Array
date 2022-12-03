@@ -41,18 +41,18 @@
 // }
 // console.log(box);
 
-var age = +prompt("Yoshingiz nechida")
-if(age >=59 && age < 150){
-   alert("Pensiyaga chiqqansiz, agar tirik bo`lsangiz")
-}else if(age >= 50 && age < 58){
-    alert("Pensiya yoshiga oz qolibdi")
-}else if (age >= 18 && age < 49){
-    alert("Hali yoshsiz , ishlashiz kerak")
-}else if (age >= 0 && age <17 ){
-    alert("Yoshingiz yetmaydi")
-}else{
-    alert("Nimadir xato")
-}
+// var age = +prompt("Yoshingiz nechida")
+// if(age >=59 && age < 150){
+//    alert("Pensiyaga chiqqansiz, agar tirik bo`lsangiz")
+// }else if(age >= 50 && age < 58){
+//     alert("Pensiya yoshiga oz qolibdi")
+// }else if (age >= 18 && age < 49){
+//     alert("Hali yoshsiz , ishlashiz kerak")
+// }else if (age >= 0 && age <17 ){
+//     alert("Yoshingiz yetmaydi")
+// }else{
+//     alert("Nimadir xato")
+// }
 
 // var son = +prompt("Son kiriting Biz uni toq yoki juftligini aniqlaymiz")
 // if (son%2==0){
@@ -74,3 +74,15 @@ if(age >=59 && age < 150){
 //  }while(isNaN(son)){
 //     alert("Son kiriting harf emas " )
 // }
+
+const arraf = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nihil rem blanditiis repellat, labore distinctio?"
+let count = 0
+for (let i = 0; i < arraf.length; i++) {
+    if (arraf[i]=='o' || arraf[i] == 'e' || arraf[i]=='i'|| arraf[i]=='a'|| arraf[i]=='u') {
+        console.log(arraf[i]);
+        count++
+    }
+    
+    
+}
+console.log(count);
